@@ -1,0 +1,17 @@
+{
+  "accentColor": "#9f5c1e",
+  "cssTheme": "Tokyo Night",
+  "baseFontSize": 22,
+  "textFontFamily": "CMU Serif",
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": "",
+  "nativeMenus": false,
+  "translucency": false,
+  "enabledCssSnippets": [
+    "center",
+    "header",
+    "width"
+  ],
+  "baseFontSizeAction": false,
+  "theme": "obsidian"
+}

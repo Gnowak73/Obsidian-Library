@@ -1,0 +1,302 @@
+{
+  "main": {
+    "id": "b7ead6f9e5da1e39",
+    "type": "split",
+    "children": [
+      {
+        "id": "2fc9ec23a0415fbb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b57bbc8cfe99fa8e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Textbooks/Steven R. Lay - Analysis with an introduction to proof.-Pearson (2014).pdf"
+              }
+            }
+          },
+          {
+            "id": "507c0dfdf3ae8169",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tensors and Exterior Forms.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a44c9d1fbea3e267",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Textbooks/Geometry of Physics.pdf"
+              }
+            }
+          },
+          {
+            "id": "3ebefe5c43206453",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/Complex Limits.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ce3633ef9b77437",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Manifolds.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "755f374b5043a9de",
+    "type": "split",
+    "children": [
+      {
+        "id": "72f37efbc50a5c75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf45a9ddfe5177c5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ea67cf02026db342",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "vector Manifold",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "79aa24a635a0eb79",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 396.50418853759766,
+    "collapsed": true
+  },
+  "right": {
+    "id": "a63540f0b3c22af0",
+    "type": "split",
+    "children": [
+      {
+        "id": "712984e9737b71f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcc905b4f23de289",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Manifolds.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3c49f72f4afbfee5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Manifolds.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "34f627f2694e4274",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a6fd7cdcec2dbc78",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Manifolds.md"
+              }
+            }
+          },
+          {
+            "id": "7ef6587286db8129",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "0be793b05e2666dd",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {}
+            }
+          },
+          {
+            "id": "a4f0db1f47f2a91c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "606bc9ec86824a82",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "a08b5b6f557f3787",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Manifolds.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-media-db-plugin:Add new Media DB entry": false,
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
+      "digitalgarden:Digital Garden Publication Center": false
+    }
+  },
+  "active": "5ce3633ef9b77437",
+  "lastOpenFiles": [
+    "Tensors and Exterior Forms.md",
+    "Math/Submanifolds.md",
+    "Math/Riemannian Metrics.md",
+    "Textbooks/Daniel V. Schroeder - An introduction to thermal physics-Addison Wesley (1999).pdf",
+    "Math/Complex Limits.md",
+    "Math/Complex Continuity.md",
+    "Textbooks/Steven R. Lay - Analysis with an introduction to proof.-Pearson (2014).pdf",
+    "Textbooks/Geometry of Physics.pdf",
+    "Math/Home.md",
+    "Manifolds.md",
+    "Math/Complex Numbers Algebraic Properties.md",
+    "Basic Topology.md",
+    "Math/Complex Series.md",
+    "Math/Complex Functions and Mappings.md",
+    "Physics/why can't energy be 0.md",
+    "Physics/Schrodinger Equation.md",
+    "Physics/Quantum Harmonic Oscillator.md",
+    "Physics/Infinite Square Well.md",
+    "Physics/Expectation Values.md",
+    "Math/The Real and Complex Number Systems.md",
+    "Sets and Functions.md",
+    "Pasted image 20240130134331.png",
+    "Pasted image 20240130131733.png",
+    "Pasted image 20240130130701.png",
+    "Energy in Thermal Physics.md",
+    "Pasted image 20240129105308.png",
+    "Pasted image 20240124230705.png",
+    "Math/Newton's Laws of Motion.md",
+    "Pasted image 20240124120203.png",
+    "Pasted image 20240118140022.png",
+    "Pasted image 20240118133808.png",
+    "Math/Application of Residues.md",
+    "Math/Integrals and Exterior Forms.md",
+    "Math/Cosets and Lagrange's Theorem.md",
+    "Textbooks/Paul A. Tipler, Ralph Llewellyn - Modern Physics, Fifth Edition  -W. H. Freeman (2007).pdf",
+    "Textbooks/Joseph A. Gallian - Contemporary abstract algebra-Houghton Mifflin Harcourt (HMH) (1989) (1).pdf",
+    "Ideals and Factor Rings.md",
+    "Introduction to Rings.md",
+    "Pasted image 20231205204125.png",
+    "Pasted image 20231205203858.png",
+    "Textbooks/taylor-2005-classical-mechanics.pdf",
+    "Textbooks/TEXTBOOK MATH 430 PARTIAL DIFFERENTIAL EQUATIONS.pdf",
+    "Textbooks/Complex Variables Textbook.pdf",
+    "Other Articles/Determinants sheet.pdf",
+    "Textbooks/Principles of Mathematical Analysis.pdf",
+    "QM/Untitled.canvas"
+  ]
+}

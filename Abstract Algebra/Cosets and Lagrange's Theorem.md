@@ -1,0 +1,125 @@
+---
+tags:
+  - Math
+  - group
+  - sets
+  - cosets
+  - lagrange
+  - theorem
+  - soccer
+  - rotational
+  - rotational_group
+  - orbit
+  - stabilizer
+dg-publish: true
+mathLink:
+---
+Subject: _Abstract Algebra_
+Main\_Topic: _Cosets and Lagrange's Theorem_
+Applications: _Group Theory_
+Examples: _None_
+Class: _Intro to Algebraic Systems_
+Exam: _Exam 1_
+Textbook: _[[Joseph A. Gallian - Contemporary abstract algebra-Houghton Mifflin Harcourt (HMH) (1989) (1).pdf|abstract algebra textbook]]_
+Closely\_Related\_To: _[[Groups]]_
+Cont.\_ of: _None_ 
+_
+_
+
+```ad-Definition
+Let $G$ be a group and $H$ be a subgroup of $G$. For any $a \in G$, the set $aH = \{ah \vert \ h \in H\}$ is called the _left coset_ of $H$ in $G$ containing $a$. Analogously, $Ha = \{ha \vert \ h \in H\}$ is called the _right coset_ of $H$ in $G$ containing $a$. 
+```
+
+There are some important factors to remember about cosets. First, cosets are usually not subgroups. Second, $aH$ may be the same as $bH$, even though $a$ is not the same as $b$. Third, $aH$ need not be the same as $Ha$. 
+
+Many questions arise: When does $aH=bh$? Do $aH$ and $bH$ have any elements in common? When does $aH=Ha$? Which cosets are subgroups? Why are cosets important? The next lemma and theorem answer these questions.
+
+**Lemma.**  Let $H$ be a subgroup of $G$, and let $a$ and $b$ belong to $G$. Then 
+1. $a \in aH$
+2. $aH = H$ if and only if $a \in H$
+3. $aH = bH$ or $aH \cap bH = \not{0}$
+4. $aH = bH$ if any and only if $a^{-1}b \in H$
+5. $|aH| = |bH|$
+6. $aH = Ha$ if and only if $H=a^{-1}Ha$
+7. $aH$ is a subgroup of $G$ if and only if $a \in H$
+
+**Proof:**  
+1. $a=ae \in aH$
+2. Can be seen in [[Joseph A. Gallian - Contemporary abstract algebra-Houghton Mifflin Harcourt (HMH) (1989) (1).pdf|abstract algebra textbook]]. 
+3. To prove part 3, suppose that $aH \cap bH \neq \not{0}$ and prove $aH=bH$. Let $x \in aH \cap bH$. Then there exists $h_{1},h_{2}$, in $H$ such that $x=ah_{1}$ and $x=bh_{2}$. Thus, $a=bh_{2}h_{1}^{-1}$ and $aH=bh_{2}h_{1}^{-1}H = bH$, by part 2. 
+4. Observe that $aH=bH$ if any only if $H=a^{-1}bH$. The result now follows from part 2. 
+5. Can be seen in [[Joseph A. Gallian - Contemporary abstract algebra-Houghton Mifflin Harcourt (HMH) (1989) (1).pdf|abstract algebra textbook]] to prove the correspondence $ah \rightarrow bh$ for all $h$ in $H$ is a 1:1, onto function from $aH$ to $bH$. 
+6. Note that $aH=Ha$ if and only if $a^{-1}(aH)=a^{-1}(Ha)$, that if, if and only if $H=a^{-1}Ha$.
+7. If $aH$ is a subgroup, then it contains the identity $e$. Thus, $aH \cap eH \neq \not{0}$; and, by part 3, we have $aH=eH=H$. Thus, from part 2, we have $a \in H$. Conversely, if $a \in H$, then again by part 2, $aH=H$. 
+
+**Remark.**  These properties also hold just as well for right cosets. Note that parts 1, 3, and 5 of the lemma guarantee that the left cosets of a subgroup $H$ of $G$ partition $G$ into equal size blocks. In practice, the subgroup $H$ is often chosen so that the cosets partition the groups in some highly desirable fashion. 
+
+#### Lagrange's Theorem
+We are not ready to prove a theorem that has been around for over 200 years--longer than group theory itself! (This theorem was not originally stated in group theoretic terms.) At this stage, it should come as no surprise.
+
+**Theorem 9.1**  If $G$ is a finite group and $H$ is a subgroup of $G$, then $|H|$ divides $|G|$. Moreover, the number of distinct left (right) cosets of $H$ in $G$ is $|G|/|H|$. 
+
+**Proof:**  Let $a_{1}H,a_{2}H,\ldots,a_{r}H$ denote the distinct left cosets of $H$ in $G$. Then, for each $a$ in $G$, we have $aH=a_{i}H$ for some $i$. Also, by part 1 of the lemma, $a \in aH$. Thus, each member of $G$ belongs to one of the cosets of $a_{i}H$. In symbols,
+$$
+G = a_{1}H \cup a_{2}H \cup \dots \cup a_{r}H
+$$
+Now, part 3 of the lemma shows that this union is disjoint so that so that 
+$$
+|G| = |a_{1}H|+|a_{2}H|+\ldots+|a_{r}H|
+$$
+Finally, since $|a_{i}H| = |H|$ for each $i$, we have $|G|=r|H|$.
+
+We pause to emphasize that Lagrange's theorem is a candidate criterion; that is, it provides a list of candidates for the orders of the subgroups of a group. Thus, a group of order 12 may have subgroups of order 12, 6, 4, 3, 2, 1 but not others. 
+
+```ad-warning
+The **converse** of Lagrange's Theorem is **FALSE**! For example, a group of order 12 need not have a subgroup of order $6$.
+```
+
+A special name and notation have been adopted for the number of left or right cosets of a subgroup in a group. The _index_ of a subgroup $H$ in $G$ is the number of left (or right) cosets of $H$ in $G$. This number of denoted by $|G:H|$. When $G$ is finite, Lagrange's Theorem tells us that $|G:H|=|G|/|H|$. 
+
+##### Consequences of Lagrange's Theorem
+
+**Corollary 1.**  In a finite group, the order of each element of the group, $|a|$, divides the order of the group, $|G|$. 
+
+**Proof:**  Recall that the order of an element is the order of the subgroup generated by that element ([[Cyclic Groups]]). 
+
+**Corollary 2.**  A group of prime order is cyclic.
+
+**Proof:**  Suppose $G$ has a prime order. Let $a \in G$ and $a \neq e$. Then, $|\left<a \right>|$ divides $|G|$ and $|\left<a \right>| \neq 1$. Thus, $|\left<a \right>|=|G|$ and the corollary follows. 
+
+**Corollary 3.**  Let $G$ be a finite group, and let $a \in G$. Then $a^{|G|}=e$. 
+
+**Proof:**  By Corollary 1, $|G|=|a|k$. Thus, $a^{|G|}=a^{|a|k}=e^{k}=e$.
+
+**Corollary 4.**  For every integer $a$ and every prime $p$, $a^{p} \mod p = a \mod p$. (This is [[Fermat's Little Theorem]]). 
+
+**Proof:**  By the division algorithm, $a=pm+r$ where $0 \leq r < p$. Thus, $a=r \mod p$, and it suffices to prove $r^{p} = r \mod p$. If $r=0$, the results is trivial, so we may assume $r \in U(p)$. (Recall, $U(p)=\{1,2,\ldots,p-1\}$ under multiplication modulo $p$.) Then, by the previous corollary, $r^{p-1}=1$ and, therefore, $r^{p}=r$. 
+
+As an immediate consequence of the above corollaries, we may classify all groups of order at most $7$. More of this can be seen on Page. 134 in [[Joseph A. Gallian - Contemporary abstract algebra-Houghton Mifflin Harcourt (HMH) (1989) (1).pdf|abstract algebra textbook]].
+
+---
+
+#### An Application of Cosets to Permutation Groups
+
+Lagrange's Theorem and its corollaries dramatically demonstrate the fruitfulness of the coset concept. We next consider an application of cosets to [[Permutation Groups]].
+
+```ad-Definition
+Let $G$ be a group of permutations on the set $\{1,2,\ldots,n\}$. For any $i$ from $1$ to $n$, let $stab_{G}(i)=\{\phi \in G \vert \ i \phi = i\}$. We call $stab_{G}(i)$ the _stabilizer_ of $i$ in $G$. Notice that $stab_{G}(i)$ is a subgroup of $G$. 
+```
+
+```ad-Definition
+Let $G$ be a group of permutations of a set $S$. For each $s$ in $S$, let $orb_{G}(s) = \{s \phi \vert \ \phi \in G\}$. The set $orb_{G}(s)$ is a subset of $S$ called the _orbit of_ $s$ _under_ $G$.
+```
+
+**Theorem 9.2**  Let $G$ be a finite group of permutations on the set $\{1,2,\ldots,n\}$. Then, for any $i$ from $1$ to $n$, $|G|=|orb_{G}(i)| \ |stab_{G}(i)|$. 
+
+**Proof:**  By Lagrange's Theorem, $|G|/|stab_{G}(i)|$ is the number of distinct right cosets of $stab_{G}(i)$ in $G$ (we use right here because our permutations are written on the right). Thus, it suffices to establish a 1:1 correspondence between the right cosets of $stab_{G}(i)$ and the integers in the orbit of $i$. How this is done can be seen in [[Joseph A. Gallian - Contemporary abstract algebra-Houghton Mifflin Harcourt (HMH) (1989) (1).pdf|abstract algebra textbook]] on Page 136. 
+
+#### The Rotation of a Cube and a Soccer Ball
+It cannot be overemphasized that Theorem 9.2 and Lagrange's Theorem are **counting theorems**. They enable one to determine the number of elements in various sets. To see how Theorem 9.2 works, we will determine the order of the rotation group of a cube and a soccer ball. That is, we wish to find the number of essentially different ways that we can take a cube and return it to its original orientation in space.
+
+For example, let $G$ be the rotation group of a cube. We label the six sides $1$ through $6$. Since any rotation must carry each face of the cube to exactly one other face and different rotations induce different permutations of the faces, $G$ can be seen as a permutation group on the set $\{1,2,3,4,5,6\}$. Clearly, there is some rotation that carries face number $1$ to any other face so that $|orb_{G}(1)|=6$. Next we consider $stab_{G}(1)$. Here, we are asking for all rotations of a cube that leave face number $1$ where it is. Surely, there are only four of such motions$-$rotations of $0,90,180,$ and $270$ degrees$-$about the line perpendicular to the face and passing through the center. Thus, by theorem 9.2, $|G|=6\cdot 4 = 24$. Now that we know how many rotations a cube has, it is simple to determine the actual structure of the rotation group of a cube. Recall, $S_{4}$ is the symmetric group of degree $4$. 
+
+**Theorem 9.3**  The group of rotations of a cube is isomorphic to $S_{4}$. 
+
+**Proof:**  Can be seen on page 137 in [[Joseph A. Gallian - Contemporary abstract algebra-Houghton Mifflin Harcourt (HMH) (1989) (1).pdf|abstract algebra textbook]]. 

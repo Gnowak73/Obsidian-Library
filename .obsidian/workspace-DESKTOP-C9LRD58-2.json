@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "b7ead6f9e5da1e39",
+    "type": "split",
+    "children": [
+      {
+        "id": "64ec32c8d0152047",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e0a8472069d94c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Manifolds.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "755f374b5043a9de",
+    "type": "split",
+    "children": [
+      {
+        "id": "72f37efbc50a5c75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf45a9ddfe5177c5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ea67cf02026db342",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "determinant",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "79aa24a635a0eb79",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "a63540f0b3c22af0",
+    "type": "split",
+    "children": [
+      {
+        "id": "712984e9737b71f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcc905b4f23de289",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Manifolds.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3c49f72f4afbfee5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Manifolds.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "34f627f2694e4274",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a6fd7cdcec2dbc78",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Manifolds.md"
+              }
+            }
+          },
+          {
+            "id": "7ef6587286db8129",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "0be793b05e2666dd",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {}
+            }
+          },
+          {
+            "id": "a4f0db1f47f2a91c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-media-db-plugin:Add new Media DB entry": false,
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
+      "digitalgarden:Digital Garden Publication Center": false
+    }
+  },
+  "active": "8e0a8472069d94c6",
+  "lastOpenFiles": [
+    "Manifolds-Habibi.md",
+    "Submanifolds.md",
+    "Manifolds.md",
+    "Submanifolds-Habibi.md",
+    "Tensor Examples.md",
+    "Home.md",
+    "Math/Contour Integrals.md",
+    "Math/Residues, Zeros, and Poles.md",
+    "Math/Application of Residues.md",
+    "Math/Contour Integrals Indented Paths.md",
+    "Math/Cauchy Goursat Theorem.md",
+    "Integrals and Exterior Forms.md",
+    "Other Articles/Determinants sheet.pdf",
+    "Orthogonal Matrices and O(3) group.md",
+    "The Exterior Differential.md",
+    "Screenshot 2023-08-14 200341.png",
+    "Math/linear independence.md",
+    "Math/Determinant.md",
+    "Math/Nonsingular Matrix.md",
+    "Screenshot 2023-08-14 172027.png",
+    "Math/Vector Linear Algebra.md",
+    "Screenshot 2023-08-14 153025.png",
+    "Screenshot 2023-08-14 151709.png",
+    "Exterior p-Forms and Algebra in R n.md",
+    "Dual Spaces.md",
+    "Vectors, 1-Forms.md",
+    "Screenshot 2023-08-08 170242.png",
+    "Superscripts, Subscripts, Summation Convention.md",
+    "Riemannian Metrics.md",
+    "Screenshot 2023-08-12 192819.png",
+    "Math/Tangent and Normal Vectors.md",
+    "Screenshot 2023-08-11 182904.png",
+    "Screenshot 2023-08-10 202825.png",
+    "Math/Uniform and Pointwise Convergence.md",
+    "Math/Cauchy Criterion.md",
+    "Textbooks/Geometry of Physics.pdf",
+    "Math/Screenshot 2023-08-07 202836.png",
+    "Screenshot 2023-08-07 202836.png~RF24d97247.TMP",
+    "Math/Screenshot 2023-08-07 181257.png",
+    "Textbooks/TEXTBOOK MATH 430 PARTIAL DIFFERENTIAL EQUATIONS.pdf",
+    "Examples/MATH_450_Quiz_4.pdf",
+    "Textbooks/Complex Variables Textbook.pdf",
+    "Wiki Articles/Cauchy's_convergence_test.pdf",
+    "Wiki Articles/Cauchy's_convergence_test 1.pdf",
+    "!Wiki Articles",
+    "Examples/MATH_450_Quiz_3.pdf",
+    "QM/Untitled.canvas"
+  ]
+}
