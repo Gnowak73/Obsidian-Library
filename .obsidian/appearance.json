@@ -1,15 +1,16 @@
 {
-  "accentColor": "#9f5c1e",
-  "cssTheme": "Tokyo Night",
-  "baseFontSize": 22,
+  "accentColor": "#927e68",
+  "cssTheme": "Minimal",
+  "baseFontSize": 19,
   "textFontFamily": "CMU Serif",
   "interfaceFontFamily": "",
   "monospaceFontFamily": "",
   "nativeMenus": false,
   "translucency": false,
   "enabledCssSnippets": [
-    "center",
     "header",
+    "center",
+    "custom-admonitions.fde3f3",
     "width"
   ],
   "baseFontSizeAction": false,

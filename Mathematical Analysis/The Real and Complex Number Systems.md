@@ -1,7 +1,5 @@
 ---
-tags: 
-dg-publish: true
-mathLink: 
+tags:
 ---
 Subject: _None_
 Main\_Topic: _None_
@@ -28,7 +26,7 @@ The real numbers are a fundamental part of mathematics. However, we must be care
 All traditional arithmetic laws can be derived by these axioms.
 
 ---
-###### Ordering Properties
+##### Ordering Properties
 "$<$" established ordering among real numbers and follows some more axioms:
 
 **Axiom 6.**  Exactly one relation: $x=y,x<y$, or $x>y$ holds. 

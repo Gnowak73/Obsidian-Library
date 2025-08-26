@@ -5,8 +5,8 @@
   "autoPairMarkdown": false,
   "autoPairBrackets": true,
   "showFrontmatter": true,
-  "defaultViewMode": "preview",
-  "readableLineLength": true,
+  "defaultViewMode": "source",
+  "readableLineLength": false,
   "rightToLeft": false,
   "vimMode": false,
   "pdfExportSettings": {
@@ -15,5 +15,12 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "propertiesInDocument": "hidden",
+  "userIgnoreFilters": [
+    "Images/",
+    "Excalidraw/"
+  ],
+  "showInlineTitle": true,
+  "showUnsupportedFiles": false
 }

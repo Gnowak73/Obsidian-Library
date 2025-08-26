@@ -1,3 +1,33 @@
-body {
-  --file-line-width:1000px
+/*body {
+  --file-line-width:750px
+} */
+
+:root {
+  --readable-width: 1000px; /* Your preferred text width */
 }
+
+/* ===== Editor ===== */
+.markdown-source-view.mod-cm6 .cm-scroller {
+  max-width: 100% !important; /* Full width for scrollbar */
+  overflow-y: auto;
+}
+.markdown-source-view.mod-cm6 .cm-content {
+  max-width: var(--readable-width);
+  margin: 0 auto;
+}
+
+/* ===== Reading view ===== */
+.markdown-reading-view .markdown-preview-sizer {
+  max-width: 100% !important;
+}
+.markdown-reading-view .markdown-preview-section {
+  max-width: var(--readable-width);
+  margin: 0 auto;
+}
+
+/* ===== Inline title alignment ===== */
+.inline-title {
+  width: var(--readable-width);
+  margin-left: calc((99% - var(--readable-width)) / 2);
+}
+

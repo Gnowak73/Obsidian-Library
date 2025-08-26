@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "11402aaaacf0745b",
+        "id": "22804a5c4722e91b",
         "type": "tabs",
         "children": [
           {
-            "id": "0f57fbbd70f9e974",
+            "id": "41b84f63d8eeb656",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematical Analysis/The Real and Complex Number Systems.md",
+                "file": "Home.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Real and Complex Number Systems"
+              "title": "Home"
             }
           }
         ]
@@ -45,7 +45,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bf45a9ddfe5177c5",
+            "id": "48f685c6d450c4ea",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -73,16 +73,6 @@
               "icon": "lucide-search",
               "title": "Search"
             }
-          },
-          {
-            "id": "79aa24a635a0eb79",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
           }
         ]
       }
@@ -104,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physics Differential Geometry/Tensors and Exterior Forms.md",
+                "file": "Mathematical Analysis/The Real and Complex Number Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,21 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tensors and Exterior Forms"
-            }
-          },
-          {
-            "id": "3c49f72f4afbfee5",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Physics Differential Geometry/Tensors and Exterior Forms.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Tensors and Exterior Forms"
+              "title": "Backlinks for The Real and Complex Number Systems"
             }
           },
           {
@@ -147,52 +123,36 @@
             }
           },
           {
-            "id": "a6fd7cdcec2dbc78",
+            "id": "19ea58f57d432f23",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Home"
+            }
+          },
+          {
+            "id": "cfa57850f0215e4c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physics Differential Geometry/Tensors and Exterior Forms.md",
+                "file": "Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tensors and Exterior Forms"
+              "title": "Outline of Home"
             }
           },
           {
-            "id": "7ef6587286db8129",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "0be793b05e2666dd",
-            "type": "leaf",
-            "state": {
-              "type": "Strange New Worlds",
-              "state": {},
-              "icon": "file-digit",
-              "title": "Strange New Worlds"
-            }
-          },
-          {
-            "id": "a4f0db1f47f2a91c",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "606bc9ec86824a82",
+            "id": "902be2b48372fe8b",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -206,19 +166,28 @@
             }
           },
           {
-            "id": "a08b5b6f557f3787",
+            "id": "701e85d48575e5e4",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "Strange New Worlds"
+            }
+          },
+          {
+            "id": "406b31e9ba0884b7",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Physics Differential Geometry/Tensors and Exterior Forms.md"
+                "file": "Mathematical Analysis/The Real and Complex Number Systems.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Tensors and Exterior Forms"
+              "title": "File properties for The Real and Complex Number Systems"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -227,26 +196,36 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
-      "obsidian-media-db-plugin:Add new Media DB entry": false,
-      "digitalgarden:Digital Garden Publication Center": false,
-      "omnisearch:Omnisearch": false
+      "publish:Publish changes...": false
     }
   },
-  "active": "0f57fbbd70f9e974",
+  "active": "41b84f63d8eeb656",
   "lastOpenFiles": [
-    "Math Miscellaneous/Integration Methods.md",
     "Mathematical Analysis/The Real and Complex Number Systems.md",
+    "Home.md",
+    "README.md",
+    "Templates/Template 1.md",
+    "Multivariable Calculus/Fundamental Theorem of Line Integrals.md",
+    "Other Articles/Determinants sheet.pdf",
+    "Math Miscellaneous/Basic Topology.md",
+    "Possible Junk/Background for QM on Manifolds.md",
+    "Multivariable Calculus/Arclength.md",
+    "Math Miscellaneous/Arcsin(sin).md",
+    "Other Articles/diagonalization of matrices pdf.pdf",
+    "Other Articles/Derivatives Cheat Sheet.png",
+    "2025-08-08.md",
+    "Untitled.canvas",
+    "Physics Differential Geometry/Tensors and Exterior Forms.md",
+    "Goals/Research To-Do.md",
+    "Untitled.md",
+    "Math Miscellaneous/Integration Methods.md",
     "Math Miscellaneous/Function Linear Algebra.md",
     "Math Miscellaneous/Cauchy Criterion.md",
     "Abstract Algebra/Ring Homomorphisms.md",
@@ -260,19 +239,6 @@
     "Complex Variables/Three Types of Isolated Singular Points.md",
     "Complex Variables/Analytic Functions.md",
     "Differential Equations/Inhomogeneous Linear ODE Method of Undetermined Coefficients.md",
-    "Differential Equations/ODE Second Order Methods.md",
-    "Differential Equations/Homogeneous Linear ODE Constant Coefficient Characteristic Equations.md",
-    "General Relativity/Hamilton-Jacobi-Einstein Equation.md",
-    "Goals/Research To-Do.md",
-    "Math Miscellaneous/Basic Topology.md",
-    "Multivariable Calculus/Surface Integral.md",
-    "Multivariable Calculus/Surface Area Integrals.md",
-    "Multivariable Calculus/Stokes' Theorem.md",
-    "Multivariable Calculus/Line Integrals.md",
-    "Multivariable Calculus/Leibniz Integral Rule.md",
-    "Multivariable Calculus/Directional Derivative.md",
-    "Multivariable Calculus/Arclength.md",
-    "Other Articles/Derivatives Cheat Sheet.png",
     "Pasted image 20250602172614.png",
     "Pasted image 20250614175025.png",
     "Pasted image 20250613200319.png",
@@ -289,8 +255,6 @@
     "Complex Variables",
     "Classical Mechanics",
     "General Relativity",
-    "Possible Junk",
-    "Quantum Mechanics/Schrodinger Equation",
     "QM/Untitled.canvas"
   ]
 }
